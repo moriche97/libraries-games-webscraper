@@ -10,7 +10,8 @@ To use the tool, we have to complete prerequirements:
 - Launch Google Chrome with debug port open: `chrome.exe --remote-debugging-port=9222`
 - Open this link on Chrome opened and copy "websocketDebuggerUrl" value: [localhost debug](http://127.0.0.1:9222/json/version)
 - Log in on Steam and Epic Games web pages as normally.
-- Replace on `line 11` string value with "websocketDebuggerUrl" previously copied.
+- Replace on `line 12` string value with "websocketDebuggerUrl" previously copied.
+- Replace on `line 8` string value with your steam id.
 - Run `npm install` on project directory. 
 
 After all preparations with Chrome still opened, type `npm run start` to launch the tool on this directory.
