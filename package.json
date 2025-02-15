@@ -1,0 +1,21 @@
+{
+    "name": "libraries-games-webscraper",
+    "version": "1.0.0",
+    "description": "A webscraper to create a list of all our games of Steam and Epic Games with their scores and duration to check played games and order it to play them",
+    "main": "libraries-games-webscraper.js",
+    "scripts": {
+        "start": "node libraries-games-webscraper.js"
+    },
+    "author": "moriche97",
+    "license": "GNU GPLv3",
+    "dependencies": {
+        "convert-array-to-csv": "2.0.0",
+        "puppeteer": "24.2.1",
+        "puppeteer-extra": "3.3.6",
+        "puppeteer-extra-plugin-stealth": "2.11.2"
+    },
+    "bugs": {
+        "url": "https://github.com/moriche97/libraries-games-webscraper/issues"
+    },
+    "homepage": "https://github.com/moriche97/libraries-games-webscraper#readme"
+}
